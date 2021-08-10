@@ -1,0 +1,59 @@
+@import "./variable";
+
+// card 背景圖片高度.
+.self-card-height-1 {
+  height: $card-height-1;
+}
+
+.self-card-height-2 {
+  height: $card-height-2;
+}
+
+// card 內陰影.
+.self-card-inset-shadow {
+  background-image: linear-gradient(180deg, transparent, black);
+}
+
+// card 中的小圖片大頭照.
+.avatar-container {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.self-blog-height {
+  height: 3.4375rem;
+}
+
+// 圖片填滿容器.
+.self-object-fit-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+// 圖片依照高度填滿容器.
+.self-object-fit-cover-height {
+  height: 100%;
+  object-fit: cover;
+}
+
+// facebook 背景顏色.
+.background-facebook {
+  background-color: $background-facebook;
+}
+
+.background-instagram {
+  background: radial-gradient(
+    circle at 20% 130%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+// youtube 背景顏色.
+.background-youtube {
+  background-color: $background-youtube;
+}
