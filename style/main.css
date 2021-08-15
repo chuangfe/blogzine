@@ -1,14 +1,9 @@
-.self-card-height-1 {
-  height: 35rem;
+.self-card-height-big {
+  height: 25rem;
 }
 
-.self-card-height-2 {
+.self-card-height-medium {
   height: 17.5rem;
-}
-
-.self-card-inset-shadow {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
-  background-image: linear-gradient(180deg, transparent, black);
 }
 
 .avatar-container {
@@ -43,5 +38,11 @@
 
 .background-youtube {
   background-color: #ff0000;
+}
+
+@media screen and (min-width: 768px) {
+  .self-card-height-big {
+    height: 35rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

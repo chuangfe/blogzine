@@ -1,17 +1,13 @@
 @import "./variable";
 
-// card 背景圖片高度.
-.self-card-height-1 {
-  height: $card-height-1;
-}
-
-.self-card-height-2 {
+// card 大張背景圖片高度.
+.self-card-height-big {
   height: $card-height-2;
 }
 
-// card 內陰影.
-.self-card-inset-shadow {
-  background-image: linear-gradient(180deg, transparent, black);
+// card 其他背景圖片高度.
+.self-card-height-medium {
+  height: $card-height-1;
 }
 
 // card 中的小圖片大頭照.
@@ -20,6 +16,7 @@
   height: 2.5rem;
 }
 
+// blog 連結高度.
 .self-blog-height {
   height: 3.4375rem;
 }
@@ -42,6 +39,7 @@
   background-color: $background-facebook;
 }
 
+// instagram 背景顏色.
 .background-instagram {
   background: radial-gradient(
     circle at 20% 130%,
